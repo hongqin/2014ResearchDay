@@ -75,7 +75,7 @@ table(tb2$age, tb2$gender)
 boxplot( tb2$age ~ tb2$gender)
 
 #histogram of age
-hist(tb2$age)
+hist(tb2$age, br=10)
 
 
 ###country 
